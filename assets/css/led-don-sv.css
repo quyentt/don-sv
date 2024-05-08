@@ -1,0 +1,163 @@
+@font-face {
+  font-family: "montserrat";
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/Montserrat-Regular.otf);
+}
+
+@font-face {
+  font-family: "montserrat";
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/Montserrat-SemiBold.otf);
+}
+
+@font-face {
+  font-family: "montserrat";
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/Montserrat-Bold.otf);
+}
+
+@font-face {
+  font-family: "montserrat";
+  font-weight: 800;
+  font-display: swap;
+  src: url(../fonts/Montserrat-ExtraBold.otf);
+}
+
+:root {
+  --color-table-bg: rgba(0, 32, 109, 0.85);
+  --color-quay-1: #1b9ad6;
+  --color-quay-2: #0247fe;
+  --color-quay-3: #3d01a4;
+  --color-quay-4: #8601af;
+  --color-quay-5: #a7194b;
+  --color-quay-6: #fd5308;
+  --color-quay-7: #66b032;
+  --color-red: #e20303;
+  --color-text-label: #1b9ad6;
+  --color-text-time: #1e9bd7;
+  --color-row-bg: rgba(225, 225, 225, 0.2);
+  --color-row-thead-bg: #00206d;
+}
+
+.led-don-sv-html {
+  font-size: 1.04vw;
+}
+
+.led-don-sv {
+  font-family: "montserrat";
+  padding: 0.45rem;
+  width: 100vw;
+  height: 100vh;
+  background: url(../images/bg-led-event.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.led-don-sv-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.led-don-sv-header-logo img {
+  height: 3rem;
+}
+
+.led-don-sv-header-title {
+  font-size: 1.66rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--color-red);
+}
+
+.led-don-sv-header-date {
+  font-size: 1.5rem;
+  color: var(--color-text-time);
+  font-weight: 700;
+}
+
+.led-don-sv-content {
+  background: var(--color-table-bg);
+  border-radius: 1rem;
+  overflow: hidden;
+  width: 100%;
+  border: solid 0.05rem #fff;
+  margin-top: 1rem;
+  padding: 0.1rem 0.3rem;
+}
+
+.led-don-sv-table {
+  width: 100%;
+  color: #fff;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.led-don-sv-table td {
+  vertical-align: middle;
+  height: 2.2rem;
+  padding: 0.15rem 0.75rem;
+}
+
+.led-don-sv-table thead td {
+  color: var(--color-text-label);
+  background: var(--color-row-thead-bg);
+  height: 2.4rem;
+}
+
+.led-don-sv-table thead td:last-child {
+  width: 21.1rem;
+}
+
+.led-don-sv-table tbody tr:nth-child(odd) {
+  background: var(--color-row-bg);
+}
+
+tbody:before {
+  content: "@";
+  display: block;
+  line-height: 0.3rem;
+  text-indent: -99999px;
+}
+
+.quay-number {
+  border-radius: 0.75rem;
+  background: red;
+  width: fit-content;
+  height: 1.7rem;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.quay-1 {
+  background: var(--color-quay-1);
+}
+
+.quay-2 {
+  background: var(--color-quay-2);
+}
+
+.quay-3 {
+  background: var(--color-quay-3);
+}
+
+.quay-4 {
+  background: var(--color-quay-4);
+}
+
+.quay-5 {
+  background: var(--color-quay-5);
+}
+
+.quay-6 {
+  background: var(--color-quay-6);
+}
+
+.quay-7 {
+  background: var(--color-quay-7);
+}
