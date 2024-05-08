@@ -88,6 +88,7 @@
   border: solid 0.05rem #fff;
   margin-top: 1rem;
   padding: 0.1rem 0.3rem;
+  min-height: 90vh;
 }
 
 .led-don-sv-table {
