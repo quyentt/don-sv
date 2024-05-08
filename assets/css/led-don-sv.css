@@ -109,6 +109,7 @@
   color: var(--color-text-label);
   background: var(--color-row-thead-bg);
   height: 2.4rem;
+  font-weight: 600;
 }
 
 .led-don-sv-table thead td:last-child {
