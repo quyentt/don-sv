@@ -89,7 +89,7 @@
   border: solid 0.05rem #fff;
   margin-top: 1rem;
   padding: 0.1rem 0.3rem;
-  min-height: 90vh;
+  height: 90vh;
 }
 
 .led-don-sv-table {
@@ -202,4 +202,70 @@ tbody:before {
 .led-don-sv-table tbody tr:hover td {
   color: var(--color-row-thead-bg);
   background-color: #eeeef0 !important;
+}
+
+.leb-table .swiper-slide {
+  height: 2.2rem;
+  display: flex;
+  width: 100%;
+}
+
+.leb-table .swiper-slide:nth-child(2n-1) {
+  background: #2a488f;
+}
+
+.leb-table .swiper {
+  height: 100%;
+  position: relative;
+}
+
+.leb-table {
+  height: calc(100% - 2rem);
+}
+
+.led-table-cell {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  padding: 0 1rem;
+}
+
+.led-table-cell:nth-child(1) {
+  width: 6%;
+}
+
+.led-table-cell:nth-child(2) {
+  width: 15%;
+}
+
+.led-table-cell:nth-child(3) {
+  width: 15%;
+}
+
+.led-table-cell:nth-child(4) {
+  width: 10%;
+}
+
+.led-table-cell:nth-child(5) {
+  width: 9%;
+}
+
+.led-table-cell:nth-child(6) {
+  flex: 1;
+}
+
+.led-table-cell:nth-child(7) {
+  width: 21.6rem;
+}
+
+.theader {
+  display: flex;
+  /* margin-bottom: 0.3rem; */
+}
+
+.theader .led-table-cell {
+  color: var(--color-text-label);
+  background: var(--color-row-thead-bg);
+  height: 2.4rem;
+  font-weight: 600;
 }
