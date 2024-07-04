@@ -269,3 +269,67 @@ tbody:before {
   height: 2.4rem;
   font-weight: 600;
 }
+
+.mySwiper .swiper-wrapper {
+  flex-direction: column;
+}
+
+.led-don-sv-btn,
+.led-don-sv-btn:hover {
+  background: var(--color-text-label);
+  height: 2.2rem;
+  padding: 0.375rem 0.75rem;
+  color: #fff;
+  border-radius: var(--bs-border-radius);
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+#dahoanthanh .modal-content {
+  background: var(--color-table-bg);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+#dahoanthanh .modal-header,
+#dahoanthanh .modal-footer {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border: none;
+}
+
+#dahoanthanh .modal-title {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+#dahoanthanh .btn-close {
+  background: transparent url("../images/Close-44.png");
+  background-size: 1.2rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* width */
+
+#dahoanthanh .modal-body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+/* Track */
+
+#dahoanthanh .modal-body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+
+#dahoanthanh .modal-body::-webkit-scrollbar-thumb {
+  background: var(--color-text-label);
+  border-radius: 0.3rem;
+}
+
+#dahoanthanh .led-don-sv-table thead td:last-child {
+  width: 11rem;
+}
